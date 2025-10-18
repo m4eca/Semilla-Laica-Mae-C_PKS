@@ -36,5 +36,5 @@ Key Tasks:
 - Helps security teams predict and prevent future attacks.
 - 
 Important Terms:
-Threat: Something that could harm a system or network.
-Intelligence: Data and insights gathered from logs, security feeds, and public sources to understand threat behavior
+- Threat: Something that could harm a system or network.
+- Intelligence: Data and insights gathered from logs, security feeds, and public sources to understand threat behavior
