@@ -1,1 +1,40 @@
+## Defensive vs. Offensive Security
 
+- **Defensive Security (Blue Team):**
+  - Focuses on **protecting networks and systems** from attacks.
+  - Detects, monitors, and responds to threats before attackers exploit them.
+  - Example: Monitoring suspicious activity in real time.
+
+- **Offensive Security (Red Team):**
+  - Aims to **find and exploit vulnerabilities** in systems.
+  - Tests an organization’s defenses by simulating real-world attacks.
+  - Helps identify weaknesses before malicious hackers can.
+
+---
+
+## Directory Discovery Tool
+
+- **Gobuster:**
+  - A tool used to **discover hidden directories and files** on a website.
+  - Often used during web application penetration testing.
+  
+  **Example Command:**
+  ```bash
+  gobuster dir -u http://example.thm -w wordlist.txt
+
+Security Operations Center (SOC)
+
+- A SOC is responsible for monitoring and managing security within an organization.
+- It continuously tracks system activity to detect, analyze, and respond to incidents.
+
+Key Tasks:
+- Detect unauthorized access or policy violations
+- Investigate network intrusions
+- Patch and reduce vulnerabilities across systems
+- Threat Intelligence:
+- The process of collecting and analyzing data about potential cyber threats.
+- Helps security teams predict and prevent future attacks.
+- 
+Important Terms:
+Threat: Something that could harm a system or network.
+Intelligence: Data and insights gathered from logs, security feeds, and public sources to understand threat behavior
