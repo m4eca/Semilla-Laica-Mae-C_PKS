@@ -79,3 +79,7 @@
 - **Mitigation (short):** Validate and whitelist allowed URLs, block internal IP ranges, and restrict server-side outgoing requests.
 
 ---
+
+## Reflection
+
+Going through the OWASP Top 10 helped me understand the most common security risks in web applications. Each item shows how attackers can take advantage of weak spots like broken access control, outdated components, or poor input handling. Knowing these risks makes it easier to spot problems early and build more secure projects.
