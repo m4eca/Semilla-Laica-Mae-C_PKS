@@ -18,3 +18,9 @@ SQL Injection is a code injection technique that allows an attacker to interfere
 - **Limit database privileges**: follow the principle of least privilege  
 - **Employ ORM frameworks** that abstract query construction  
 - **Monitor and log** suspicious query patterns for early detection
+
+--- 
+
+## Reflection
+
+I learned that mixing user input directly with SQL queries can lead to serious problems. Attackers can use it to access or change data in the database without permission. Using prepared statements and checking input properly helps keep the system safe. It also reminded me that even basic forms like login or search need to be handled carefully to avoid these kinds of issues.
