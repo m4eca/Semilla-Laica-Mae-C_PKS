@@ -26,3 +26,7 @@ OS Command Injection is a type of vulnerability where an attacker manipulates in
 - **Security libraries**: Employ frameworks or tools that handle command execution securely
   
 ---
+
+## Reflection
+
+I learned how risky it is to let user input go directly into system commands. Even small mistakes can let attackers run their own commands and take control of the machine. Using safer functions and limiting app permissions are good ways to prevent this kind of attack.
