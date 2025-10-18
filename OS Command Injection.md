@@ -30,6 +30,8 @@ The server will execute:
 ping -c 4 127.0.0.1; ls
 ```
 This allows the attacker to list files on the server.
+
+
 ---
 ## Potential Impact
 - Unauthorized access to the operating system.
