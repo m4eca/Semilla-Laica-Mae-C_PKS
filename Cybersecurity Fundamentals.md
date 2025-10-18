@@ -23,7 +23,6 @@
   gobuster dir -u http://example.thm -w wordlist.txt
 
 **Security Operations Center (SOC)**
-
 - A SOC is responsible for monitoring and managing security within an organization.
 - It continuously tracks system activity to detect, analyze, and respond to incidents.
 
@@ -34,7 +33,6 @@
 - Threat Intelligence:
 - The process of collecting and analyzing data about potential cyber threats.
 - Helps security teams predict and prevent future attacks.
-- 
 
 **Important Terms:**
 - Threat: Something that could harm a system or network.
