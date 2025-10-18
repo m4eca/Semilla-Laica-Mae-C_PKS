@@ -31,7 +31,7 @@ Both work together to keep systems secure and to ensure that evidence is handled
 - **Network Logs:**  
   Capture data traffic between systems — useful for spotting suspicious connections, IP addresses, or unusual behavior.
 
-  ## Incident Response
+## Incident Response
 
 Incident Response (IR) is about **reacting fast and correctly** when a security incident happens.
 
