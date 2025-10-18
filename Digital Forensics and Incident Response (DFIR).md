@@ -38,9 +38,6 @@ Incident Response (IR) is about **reacting fast and correctly** when a security 
 
 ## Incident Response Lifecycle (Four Phases)
 
-**Incident Response (IR)** is a structured approach to handle and manage security incidents efficiently.  
-The goal is to **minimize damage** and **recover operations** as quickly as possible.
-
 1. **Preparation:**  
    - Setting up response plans, tools, and trained teams before incidents happen.  
    - Includes creating backups, updating software, and defining communication procedures.  
