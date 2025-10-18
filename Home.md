@@ -1,6 +1,7 @@
 **Name:** Semilla, Laica Mae C.  
 **Course & Section:** 3BSIT-2  
 
+## 📁 Topics Covered
 - [Cybersecurity Fundamentals](Cybersecurity%20Fundamentals.md)  
 - [Cloud and Virtualization Fundamentals](Cloud%20and%20Virtualization%20Fundamentals.md)  
 - [General Safety and Security Practices](General%20Safety%20and%20Security%20Practices.md)  
