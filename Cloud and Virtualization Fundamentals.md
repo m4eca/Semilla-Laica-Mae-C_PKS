@@ -51,10 +51,6 @@
 
 ### **Reflection**
 
-While doing this, I started to understand how **virtualization** and **cloud computing** actually work together.  
-Before, I just used apps online without thinking how they’re managed.  
-Now I know that things like **hypervisors, CDNs, and CASBs** keep systems running fast and secure.  
-
-This topic made me appreciate **Information Assurance and Security** more because it’s not just about protecting data —  
-it’s about making sure everything behind the scenes is working safely and efficiently.  
+While doing this topic, I got a better picture of how **virtualization** and **cloud computing** actually work together.  
+Before, I was just using online apps without thinking about what happens behind them.  Now I understand that tools like **hypervisors**, **CDNs**, and **CASBs** play a big role in keeping systems fast, secure, and reliable.  This lesson showed me that it’s not only about protecting data,  but also about making sure everything in the background runs smoothly and safely.
 
