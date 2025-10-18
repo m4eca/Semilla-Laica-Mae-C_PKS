@@ -1,39 +1,20 @@
-## Definition
+## **Definition**  
+SQL Injection is a code injection technique that allows an attacker to interfere with the queries an application makes to its database. It occurs when untrusted input is inserted directly into a SQL query without proper validation or escaping.
 
-**SQL Injection (SQLi)** is a vulnerability where an attacker inserts malicious SQL into an application's database queries via user input. It can expose, change, or delete data and may lead to bigger compromises.
+## **Impact**  
+- Allows attackers to **read, modify, or delete** sensitive data  
+- Can lead to **authentication bypass**, data leakage, or full database compromise  
+- May enable **remote code execution** or access to the underlying operating system in severe cases
 
----
+## **Risk Factors**  
+- Concatenating **user input directly into SQL queries**  
+- Lack of **input validation or escaping**  
+- Use of outdated or insecure database drivers  
+- Applications with **elevated database privileges**
 
-## How It Works
-
-1. The app accepts input (form, URL param, API, etc.).  
-2. The input is directly combined into an SQL query without proper checks.  
-3. An attacker crafts input containing SQL syntax to change the query logic.  
-4. The database runs the altered query and returns results or performs actions the developer didn't intend.
-
-**Example (unsafe PHP + MySQL):**
-```php
-$user = $_GET['user'];
-$query = "SELECT * FROM users WHERE username = '$user'";
-$result = mysqli_query($conn, $query);
-If user = ' OR '1'='1, the query becomes:
-```
-If user = ' OR '1'='1, the query becomes:
-```sql
-SELECT * FROM users WHERE username = '' OR '1'='1'
-```
-which returns all rows.
-
-## Types of SQL Injection
-- **In-band (Classic)**
-Error-based: uses DB error messages to learn about the database.
-Union-based: uses UNION to combine attacker-controlled results with real query results.
-
-- **Blind SQL Injection**
-Boolean-based: infers data by true/false responses.
-Time-based: uses delays (e.g., SLEEP()) to infer data from response times.
-
-- **Out-of-band**
-Uses separate channels (DNS, HTTP callbacks) to retrieve data when direct responses aren’t available.
-
-
+## **Prevention Strategies**  
+- **Use parameterized queries** or prepared statements  
+- **Validate and sanitize input**: enforce strict data types and formats  
+- **Limit database privileges**: follow the principle of least privilege  
+- **Employ ORM frameworks** that abstract query construction  
+- **Monitor and log** suspicious query patterns for early detection
