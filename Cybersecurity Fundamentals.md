@@ -38,6 +38,7 @@
 - Threat: Something that could harm a system or network.
 - Intelligence: Data and insights gathered from logs, security feeds, and public sources to understand threat behavior
 
-##Reflection
+## Reflection
+
 
 What I learned from this topic is how both sides of cybersecurity work together. The Red Team tries to attack, while the Blue Team defends and both are important in keeping systems secure. I also learned how tools like Gobuster help find hidden parts of a website that could be risky if not secured. This lesson gave me a better idea of how security operations actually run inside companies and how important it is to always test, monitor, and improve systems to stay safe from attacks.
