@@ -78,10 +78,4 @@ The goal is to **minimize damage** and **recover operations** as quickly as poss
 
 ## Reflection
 
-What I learned from this topic is how important **digital evidence** is when dealing with cybersecurity incidents.  
-Even small traces from system logs or memory can help figure out how an attack happened.  
-The **Incident Response Lifecycle** also made me realize how organized the process has to be — every phase matters, from preparation to post-incident review.  
-As an IT student, this topic reminded me that solving security issues isn’t just about fixing things fast; it’s about being accurate, careful, and learning from every incident.
-
-
-
+What I learned from this topic is how important **digital evidence** is when dealing with cybersecurity incidents. Even small traces from system logs or memory can help figure out how an attack happened. The **Incident Response Lifecycle** also made me realize how organized the process has to be — every phase matters, from preparation to post-incident review.  As an IT student, this topic reminded me that solving security issues isn’t just about fixing things fast; it’s about being accurate, careful, and learning from every incident.
