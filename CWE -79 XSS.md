@@ -45,3 +45,9 @@ XSS can:
 - Change the appearance or content of websites.
 - Redirect users to malicious sites.
 -Perform phishing or trick users into giving away credentials.
+
+---
+
+## Reflection
+
+This lesson showed how attackers can use simple things like comment boxes or search bars to run harmful scripts. I learned that there are different types of XSS, and each one works in its own way some save the script, some reflect it, and some run only in the browser. It’s important to clean and check user input properly, and use tools like CSP to help block these attacks before they happen.
