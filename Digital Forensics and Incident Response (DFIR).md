@@ -36,14 +36,6 @@ Both work together to keep systems secure and to ensure that evidence is handled
 
 Incident Response (IR) is about **reacting fast and correctly** when a security incident happens.
 
-**Phases of Incident Response:**
-1. **Preparation** – Set up tools, plans, and teams before any attack happens.  
-2. **Identification** – Detect if an incident is really occurring.  
-3. **Containment** – Stop the attack from spreading or causing more damage.  
-4. **Eradication** – Remove the threat completely from the system.  
-5. **Recovery** – Restore systems and make sure they’re clean and working again.  
-6. **Lessons Learned** – Review what happened and improve defenses for next time.
-
 ## Incident Response Lifecycle (Four Phases)
 
 **Incident Response (IR)** is a structured approach to handle and manage security incidents efficiently.  
@@ -78,4 +70,4 @@ The goal is to **minimize damage** and **recover operations** as quickly as poss
 
 ## Reflection
 
-What I learned from this topic is how important **digital evidence** is when dealing with cybersecurity incidents. Even small traces from system logs or memory can help figure out how an attack happened. The **Incident Response Lifecycle** also made me realize how organized the process has to be — every phase matters, from preparation to post-incident review.  As an IT student, this topic reminded me that solving security issues isn’t just about fixing things fast; it’s about being accurate, careful, and learning from every incident.
+What I learned from this topic is how important digital evidence is when dealing with cybersecurity incidents. Even small traces from system logs or memory can help figure out how an attack happened. As an IT student, this topic reminded me that solving security issues isn’t just about fixing things fast, it’s about being accurate, careful, and learning from every incident.
