@@ -64,5 +64,18 @@
 
 ---
 
-### A09:2021 - Security Logging and Monitoring Failur
+### A09:2021 - Security Logging and Monitoring Failures
+- **Description:** Insufficient logging, alerting, or monitoring prevents timely detection and response to incidents.
+- **Example:** Missing logs for authentication failures or disabled alerting for anomalous behavior.
+- **Impact:** Delayed breach detection, extended attacker dwell time, failed investigations.
+- **Mitigation (short):** Centralize logs, monitor critical events, create alerts, and test incident response procedures.
 
+---
+
+### A10:2021 - Server-Side Request Forgery (SSRF)
+- **Description:** The application fetches a remote resource based on user input, and attackers can force requests to internal-only services or metadata endpoints.
+- **Example:** Submitting a URL like `http://localhost:5000/admin` or AWS metadata endpoint to access internal data.
+- **Impact:** Internal network scanning, data exposure, cloud credential theft.
+- **Mitigation (short):** Validate and whitelist allowed URLs, block internal IP ranges, and restrict server-side outgoing requests.
+
+---
