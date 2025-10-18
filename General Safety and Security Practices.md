@@ -31,7 +31,7 @@
 
 ---
 
-### 🌐 Public Network Safety
+### Public Network Safety
 
 - Avoid using **public Wi-Fi** for banking or logging into important accounts.  
 - If you really need to use it, connect through a **VPN (Virtual Private Network)** for encryption.  
@@ -41,7 +41,7 @@
 
 ---
 
-### 💾 Backups
+### Backups
 
 Keeping backups ensures that your data can be recovered if your system crashes, gets infected, or files are accidentally deleted.
 
