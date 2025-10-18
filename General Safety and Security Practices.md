@@ -1,7 +1,6 @@
 ## Overview
 
-**General Safety and Security Practices** are the basic steps and habits that help protect computer systems, data, and networks from potential threats.  
-These practices are essential not only for organizations but also for individual users to stay safe in the digital environment.\
+**General Safety and Security Practices** are the basic steps and habits that help protect computer systems, data, and networks from potential threats.  These practices are essential not only for organizations but also for individual users to stay safe in the digital environment.
 
 ---
 
