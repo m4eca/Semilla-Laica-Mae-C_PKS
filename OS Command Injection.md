@@ -46,8 +46,8 @@ This allows the attacker to list files on the server.
 - File uploads or system call functions
 
 ## Prevention Techniques
-Input Validation: Allow only safe and expected input values. 
-Input Sanitization: Remove or escape special characters such as ;, |, &, >, <. 
-Use Safe APIs: Avoid using system-level functions like exec() or system() when possible. 
-Least Privilege: Run applications with limited permissions to reduce damage if exploited.
-Output Encoding: Encode data before displaying it to prevent command injection through responses.
+- Input Validation: Allow only safe and expected input values. 
+- Input Sanitization: Remove or escape special characters such as ;, |, &, >, <. 
+- Use Safe APIs: Avoid using system-level functions like exec() or system() when possible. 
+- Least Privilege: Run applications with limited permissions to reduce damage if exploited.
+- Output Encoding: Encode data before displaying it to prevent command injection through responses.
